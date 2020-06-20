@@ -6,7 +6,7 @@
 # Blog: https://qqcn.xyz
 #=================================================
 
-name: 为MI-R3G自动编译LEDE
+name: 为MI-R3G自动编译LEDE-mike
 
 on:
   repository_dispatch:
