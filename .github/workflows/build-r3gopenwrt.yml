@@ -6,7 +6,7 @@
 # Blog: https://qqcn.xyz
 #=================================================
 
-name: 为MI-R3G自动编译LEDE-mike 20200620
+name: 为MI-R3G自动编译LEDE-mike
 
 on:
   repository_dispatch:
@@ -17,7 +17,7 @@ on:
       - master
     paths:
       - '.config'
-  schedule:
+#  schedule:
     - cron: 0 6 * * 5
 #  watch:
 #    types: started
